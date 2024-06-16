@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(10, 4, 4);
+}
+
+p {
+    float: center;
+    font-size: 60px;
+    padding: 30px 30px;
+    font-weight: 300;
+    color: cornsilk;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Times new roman', Times, serif;
+    color: darkgrey;
+}
+
+ol {
+    font-size: 25px;
+    padding: 13px;
+    margin-left: 8px;
+    color: darkgray;
+}
+
+table {
+    border: 1px solid rgb(161, 165, 152);
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    color: darkgray;
+}
+
+td {
+    font-size: 20px;
+    color: darkgray;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    border: nne;
+    border-radius: 6px;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: rgb(95, 99, 95);
+    display: inline-block;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+
+    }
+
+    to {
+        transform: translateX(0);
+
+
+    }
+
+
+}
+
+.contact {
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.fa-linkedin {
+    font-size: 50px;
+    color: aliceblue;
+    margin-right: 20px;
+
+}
+
+.fa-github {
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+.fa-medium {
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 20px;
+
+}
+
+.fa-square-envelope {
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+
+.content {
+    display: none;
+    margin-top: 10px;
+}
+
+.toggle-button {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

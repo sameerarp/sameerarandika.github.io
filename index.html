@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titlle>sameera</titlle>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .responsive {
+            width: 100% height auto
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <img class="responsive" src="my_photo.JPG" alt="Randika image" widtd=300px height=400x><br>
+    <p class="contact">Welcome.</p>
+
+
+    <h3>My name is Sameera Randika, I am a front-end and back-end developer based in Anuradhapura, Sri Lanka.<br>
+        Seeking a challenging position as a full stack developer to leverage my extensive skills and experience in
+        web
+        development, and problem-solving. <br>I am passionate about to delivering high-quality, user-friendly
+        applications
+        while collaborating with cross-functional teams to drive innovation and achieve business objectives.</h3>
+
+    <ol>
+        <li>IT Industry</li>
+
+    </ol>
+    <h2>IT Industry Topics</h2>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('programming')">Programming</span>
+        <div id="programming" class="content">
+            <p>Programming involves writing code to create software applications. Popular programming languages include
+                Python and JavaScript.</p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('web-design')">Web Design</span>
+        <div id="web-design" class="content">
+            <p>Web design focuses on the layout, visual appearance, and usability of a website. Tools and technologies
+                used include HTML, CSS, and Adobe Photoshop.</p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('development')">Front End & Back End Development</span>
+        <div id="development" class="content">
+            <p>Front End Development involves creating the user interface and experience of a website, using
+                technologies like HTML, CSS, and JavaScript. Back End Development involves server-side logic, databases,
+                and server configuration, often using languages like Python, Node.js, Json, Express.js and frameworks
+                like Angular</p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('server-db')">Server and Database Management</span>
+        <div id="server-db" class="content">
+            <p>Server and Database Management involves configuring and maintaining servers and databases to ensure
+                reliable performance and data integrity. Technologies used include SQLite database</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleContent(contentId) {
+            var content = document.getElementById(contentId);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <ol start="2">
+        <li>Insurance Industry</li>
+    </ol>
+
+    <h2>Insurance Industry Topics</h2>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('general-ins')">General Insurance Policy Underwriting</span>
+        <div id="general-ins" class="content">
+            <p>General Insurance Policy Underwriting involves assessing risk and determining the terms and pricing of
+                non-life insurance policies, such as home, auto, and health insurance.</p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('life-ins')">Life Insurance Policy Underwriting</span>
+        <div id="life-ins" class="content">
+            <p>Life Insurance Policy Underwriting involves evaluating risk factors and deciding on the acceptance and
+                terms of life insurance policies, which provide financial protection to beneficiaries upon the
+                policyholder's death.</p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('problem-solving')">Problem Solving & Decision Making</span>
+        <div id="problem-solving" class="content">
+            <p>Problem Solving & Decision Making in the insurance industry involves analyzing complex situations,
+                identifying potential solutions, and making informed decisions to manage risks and claims effectively.
+            </p>
+        </div>
+    </div>
+    <div>
+        <span class="toggle-button" onclick="toggleContent('consultation')">Consultation</span>
+        <div id="consultation" class="content">
+            <p>Consultation in the insurance industry includes advising clients on the best insurance products for their
+                needs, helping them understand policy details, and providing support throughout the claims process.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleContent(contentId) {
+            var content = document.getElementById(contentId);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+
+        // Initially hide all content sections
+        document.addEventListener("DOMContentLoaded", function () {
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function (content) {
+                content.style.display = "none";
+            });
+        });
+    </script>
+    <br>
+
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>For more information, <a href="mailto:sameerarandikap@gmail.com" target="blank">send us an
+                email</a>.</p>
+    </div>
+
+    <a href="https://www.linkedin.com/in/sameera-randika-prabash-b4b1ab122/" target="blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/sameerarp" target="blank"> <i class="fa-brands fa-github"></i></a>
+
+    <a href="https://medium.com/@sameerarandika" target="blank"> <i class="fa-brands fa-medium"></i> </a>
+
+    <a href="sameerarandikap@gmail.com" target="blank"><i class="fa-solid fa-square-envelope"></i></a><br>
+    <br>
+
+    <button onclick="myFunction()">Click Here</button>
+    <script>
+        function myFunction() {
+            alert("Thank You For Visiting and Selecting Me !");
+        }
+    </script>
+    <footer>
+        <h4>we are Here! 24/7 Customer Support +94 777 979922</h4>
+
+
+    </footer>
+
+</body>
+
+</html>
